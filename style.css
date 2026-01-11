@@ -224,7 +224,8 @@
   }
 
   .cta {
-    flex-direction: column;
+    justify-content: center;
+    /* flex-direction: column; */
   }
 
   .btn {
@@ -267,7 +268,9 @@
         border-radius:12px;
         box-shadow:0 8px 20px rgba(12,16,26,0.04);
     }
-
+    .mold{
+      text-align: center;
+    }
     /* teachers */
     .teachers{
         display:grid;
